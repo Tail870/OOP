@@ -30,7 +30,7 @@ class Prac5Class {
     }
 
     static int sum(int N){
-        return N == 0 ? 0 : (N % 10) + sum(N/10);
+        return N == 0 ? 0 : (N % 10) + sum(N-10);
     }
 
 }
